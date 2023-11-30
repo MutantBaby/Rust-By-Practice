@@ -15,10 +15,16 @@ In this space, I'll be tackling and solving intriguing questions featured in "Ru
 
 Rust offers a unique opportunity to enhance my coding skills by diving into a lower-level language. As I progress, I might even include topics at the beginning to provide a comprehensive resource for learners like you.
 
-## How You Can Benefit
+## Purpose and Disclaimer
 
-Whether you're a fellow developer or someone eager to learn Rust, this repository is designed to be both informative and practical. Gain insights into important and advanced concepts while following along with my coding journey.
+This repository is primarily a personal space where I document my Rust learning journey. While it may not be meticulously maintained, and I'm just an average GitHub user, your presence and feedback are welcomed.
 
-Feel free to explore the code, provide feedback, and join me in the exciting world of Rust programming!
+### How You Can Contribute
+
+- **Guidance:** If you find something puzzling or not particularly helpful, feel free to guide me. As an average person navigating GitHub basics, your insights can help me improve and make this space more beneficial.
+
+- **Feedback:** Share your thoughts, suggestions, or improvements. Although this is a personal endeavor, your input can shape it into something more valuable for the community.
+
+Remember, this is a journey, and I appreciate your company in exploring the exciting world of Rust programming!
 
 Happy coding! 🦀✨
