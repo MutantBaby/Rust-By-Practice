@@ -1,6 +1,6 @@
 # For Debug, Use GDB Debugger
 
-GDB is helpful to visualize the assembly code with to compare the code of dynamic and static dispatching.
+GDB is helpful to visualize the assembly code when comaparing multiple states/concepts.
 
 - **How to run it:** Use `cargo test` then type `gdb -tui <test exe file>` look something like `Running src/lib.rs (target/debug/deps/rust_practice-adb0a384fcaee666)` in the terminal
 
