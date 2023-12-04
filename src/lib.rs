@@ -1,5 +1,6 @@
 use std::ops::Range;
 
+#[allow(dead_code)]
 enum Change {
     Delete(Range<usize>),
     Replace(Range<usize>, String),
@@ -28,7 +29,6 @@ impl SpellChecker for AntiSpaceChecker {
     }
 }
 
-// statically dispatching
 fn _static_spell_check<C>(input: &str, spell_checker: C)
 where
     C: SpellChecker,
@@ -36,7 +36,6 @@ where
     spell_checker.check(input);
 }
 
-// dynamically dispatching
 fn _dynamic_spell_check(input: &str, spell_checker: &dyn SpellChecker) {
     spell_checker.check(input);
 }
@@ -49,10 +48,7 @@ mod tests {
     fn it_works() {
         let test: &str = "Hello, IM here";
 
-        // statically dispatching
         _static_spell_check(test, NoopSpaceChecker);
-
-        // dynamically dispatching
         _dynamic_spell_check(test, &NoopSpaceChecker);
     }
 }

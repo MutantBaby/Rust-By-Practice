@@ -9,11 +9,7 @@
       "request": "launch",
       "name": "Debug executable 'rust-practice'",
       "cargo": {
-        "args": [
-          "build",
-          "--bin=rust-practice",
-          "--package=rust-practice"
-        ],
+        "args": ["build", "--bin=rust-practice", "--package=rust-practice"],
         "filter": {
           "name": "rust-practice",
           "kind": "bin"
