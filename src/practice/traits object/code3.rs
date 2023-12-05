@@ -16,8 +16,8 @@ impl Draw for f64 {
 }
 
 fn main() {
-    let x: Box<dyn Draw> = Box::new(1.1f64);
-    let y: &dyn Draw = &8u8;
+    let x: Box<dyn Draw> = Box::new(1.1f64); // f64
+    let y: &dyn Draw = &8u8; // u8
 
     draw_with_box(x);
     draw_with_ref(y);

@@ -28,8 +28,8 @@ impl Bird for Swan {
 }
 
 fn main() {
-    // FILL in the blank to make the code work.
     let birds: Vec<Box<dyn Bird>> = vec![Box::new(Duck), Box::new(Swan)];
+    // let birds2: [&dyn Bird; 2] = [&Duck, &Swan]; // 2nd approach
 
     for bird in birds {
         bird.quack();
