@@ -6,6 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+ctrlc = "3.4.2"
 utf8_slice = "*"
 libc = "0.2.151"
+anyhow = "1.0.77"
+signal-hook = "0.3.17"
+crossbeam-channel = "0.5.10"
 tokio = { version = "1.25.0", features = ["full"] }
