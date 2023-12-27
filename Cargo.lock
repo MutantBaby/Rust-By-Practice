@@ -198,6 +198,7 @@ dependencies = [
 name = "rust-practice"
 version = "0.1.0"
 dependencies = [
+ "libc",
  "tokio",
  "utf8_slice",
 ]
